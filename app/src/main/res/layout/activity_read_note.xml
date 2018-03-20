@@ -7,4 +7,10 @@
     android:orientation="vertical"
     tools:context="com.example.hp.myfst.ReadNoteActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onOpen"
+        android:text="Button" />
 </LinearLayout>

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hp.myfst">
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,10 +21,13 @@
         </activity>
         <activity
             android:name=".EditNoteActivity"
-            android:label="@string/edit_note_title" ></activity>
-
-        <activity android:name=".ReadNoteActivity"
-            android:label="@string/read_note_title"></activity>
+            android:label="@string/edit_note_title" />
+        <activity
+            android:name=".ReadNoteActivity"
+            android:label="@string/read_note_title" />
+        <activity android:name=".BluetoothActivity"
+            android:label="@string/blue_tooth"
+        ></activity>
     </application>
 
 </manifest>
